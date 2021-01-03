@@ -8,24 +8,14 @@ import { Component, OnInit } from "@angular/core";
 export class AdminPage implements OnInit {
   appPages = [
     {
-      title: "Schedule",
-      url: "/app/tabs/schedule",
-      icon: "calendar",
+      title: "Dashboard",
+      url: "/admin/dashboard",
+      icon: "apps",
     },
     {
-      title: "Speakers",
-      url: "/app/tabs/speakers",
+      title: "Users",
+      url: "/admin/users",
       icon: "people",
-    },
-    {
-      title: "Map",
-      url: "/app/tabs/map",
-      icon: "map",
-    },
-    {
-      title: "About",
-      url: "/app/tabs/about",
-      icon: "information-circle",
     },
   ];
 
